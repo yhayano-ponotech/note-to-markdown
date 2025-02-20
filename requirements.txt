@@ -2,3 +2,4 @@ feedparser
 requests
 html2text
 playwright
+PyYAML
