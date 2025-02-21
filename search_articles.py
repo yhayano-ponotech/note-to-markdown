@@ -37,6 +37,7 @@ def search_articles_by_title_word(posts_dir, search_word):
         except Exception as e:
             print(f"Error processing {filename}: {str(e)}")
             
+    matching_files.sort()
     return matching_files
 
 def main():
